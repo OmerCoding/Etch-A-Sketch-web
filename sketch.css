@@ -14,31 +14,38 @@
 .box {
   border: 1px solid black;
   float: left;
-  width: calc(100% * (1/15) - 2px);
-  height: calc(100% * (1/15) - 2px);
+  width: calc(100% * (1/16) - 2px);
+  height: calc(100% * (1/16) - 2px);
   background-color: white;
 }
 
 .boxed {
   float: left;
-  width: calc(100% * (1/15) - 2px);
-  height: calc(100% * (1/15) - 2px);
+  width: calc(100% * (1/16) - 2px);
+  height: calc(100% * (1/16) - 2px);
+  background-color: black;
+}
+
+.boxer {
+  float: left;
+  width: calc(100% * (1/16) - 2px);
+  height: calc(100% * (1/16) - 2px);
   background-color: black;
 }
 
 .but {
-  width: 181px;
+  width: 586px;
   margin: auto;
   margin-bottom: 10px;
   border-radius: 9px;
 }
 
-#db {
+#db , #rb, #bm{
   border-radius: 9px;
 }
 
 #rights {
-  position: absolute;
+  position: relative;
   bottom: 0px;
   font-size: 17px;
 }
